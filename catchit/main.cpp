@@ -9,7 +9,7 @@ int main(int argc, char* argv[])
 
 	srand( (unsigned)time( NULL ) );
 
-	app.OpenWindow(800, 600, "Catch IT"); // show window + title
+	app.OpenWindow(800, 600, "Block Breaker"); // show window + title
 	app.SetClearColor(CColor::Black());   // set background colour
 	app.Run( &game);  // game engine is running your game
 	return(0);
